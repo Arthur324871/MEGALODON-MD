@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~pcZCVBxQ#Br6Q_hnkzH4aNWZU4GTESMkm1DDU8jt0HSdP-rCqcj4",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~YZBkzTqS#z5fLSeTwFK4zVU3JhfXvGFuxNzwyH3L7vQAOSo0UnAk",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
@@ -24,7 +24,7 @@ module.exports = {
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50941995106",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ꪖꪹᡶꫝꪊꪹ ᡶꫀᨶꫝ᭢ꪮ",           // Owner's name
     
     DEV: process.env.DEV || "50941995106",                     // Developer's contact number
     
