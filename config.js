@@ -1,4 +1,4 @@
-const { getConfig } = require("./lib/configdb");
+ouconst { getConfig } = require("./lib/configdb");
 const fs = require('fs');
 const path = require('path');
 
@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~kU4iGAoQ#I2uTUlT-7TXbHIFU0SX3XnK2ghvZtT6Qmf-EzTyOlWM",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~VF4HRR7Z#G5pe-fSQaCO7IZ9lQhTegYJ0DneglUBElljEJnZBebc",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
